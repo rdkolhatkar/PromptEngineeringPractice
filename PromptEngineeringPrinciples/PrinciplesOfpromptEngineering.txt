@@ -1,0 +1,3 @@
+1) Giving Direction / Give Context
+   -> Provide the background the AI needs to produce a relevant answer.
+   -> Example: “I am a QA engineer with 3 years of Java experience and I’m preparing for an SDET interview. Give me the most important Java interview questions that I should prepare for an SDET role.”
