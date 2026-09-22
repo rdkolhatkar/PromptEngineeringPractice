@@ -1,4 +1,27 @@
+Principles of Prompt Engineering
 1) Giving Direction / Give Context
+   -> Describe the desired style in detail, or referance a relevant persona.
    -> Provide the background the AI needs to produce a relevant answer.
    -> Example: “I am a QA engineer with 3 years of Java experience and I’m preparing for an SDET interview. Give me the most important Java interview questions that I should prepare for an SDET role.”
+2) Specify Format
+   -> Define what rules to follow, and the required structure of response.
+   -> Define the rules the AI should follow and the required structure of the response.
+   -> Specify whether the output should be in a table, bullet points, numbered steps, code blocks, or any other format.
+   -> Example: “Explain the differences between Selenium and Playwright in a comparison table. Include columns for features, Selenium, Playwright, and key differences. Use simple language and provide a short code example for each.”
+3) Provide Examples
+   -> Insert a diverse set of test cases where the task was done correctly.
+   -> Provide a diverse set of examples or test cases that demonstrate how the task should be performed correctly.
+   -> Include different scenarios, inputs, and expected outputs to help the AI understand the desired pattern.
+   -> Example: “I am creating API automation tests using Java and RestAssured. Provide examples for positive, negative, and boundary test cases for an employee registration API. Include valid input, missing mandatory fields, invalid email, and duplicate employee ID, along with the expected HTTP status codes.”
+4) Evaluate Quality
+   -> Identify errors and rate responses, testing what drives performance.
+   -> Review the AI's responses to identify errors, missing information, or incorrect assumptions.
+   -> Evaluate the output against defined criteria, such as accuracy, completeness, readability, and whether it meets the requirements.
+   -> Example: “Review the Java Selenium automation code you generated. Check whether the locators are correct, explicit waits are used properly, assertions are meaningful, and the code follows the Page Object Model. Identify errors, rate each criterion out of 5, and provide corrected code.”
+5) Divide Labor   
+   -> Split tasks into multiple steps, chained together for complex goals.
+   -> Break a complex task into smaller, manageable steps and complete them in a logical sequence.
+   -> Use the output of one step as the input for the next step to improve clarity and manage complexity.
+   -> Example: “I want to create a complete API automation framework using Java, RestAssured, and Gradle. Divide the task into steps: first, create the project structure; second, configure dependencies; third, implement API request specifications; fourth, write test cases; and finally, configure test reporting and execution. Explain and complete each step in sequence.”
+===========================================================================================================================================================================================================================================================================================================================================================================================
    
